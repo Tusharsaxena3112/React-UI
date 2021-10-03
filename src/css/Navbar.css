@@ -1,12 +1,10 @@
 li {
-  padding: 10px 25px;
+  padding: 10px;
 }
 .heading {
   color: rgb(241, 227, 227);
-  font-size: 30px;
+  font-size: 25px;
   text-decoration: none;
-  /* background-image: linear-gradient(to right, teal, blue); */
-  /* border-radius: 30px; */
 }
 .heading:hover {
   background: none;
@@ -25,7 +23,7 @@ button {
 .navBar {
   background-color: #111;
   color: white;
-  padding: 20px;
+  padding: 20px 0px;
   margin: 0px;
 }
 
@@ -78,6 +76,7 @@ ul li:hover {
   .navBar {
     justify-content: space-between;
     display: flex;
+    align-items: center;
     margin: 0px;
     padding: 20px;
   }
