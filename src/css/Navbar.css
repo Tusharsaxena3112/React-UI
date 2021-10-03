@@ -1,10 +1,15 @@
 li {
-  padding: 10px;
+  padding: 10px 25px;
 }
 .heading {
-  color: red;
-  font-size: 20px;
+  color: rgb(241, 227, 227);
+  font-size: 30px;
   text-decoration: none;
+  /* background-image: linear-gradient(to right, teal, blue); */
+  /* border-radius: 30px; */
+}
+.heading:hover {
+  background: none;
 }
 button {
   font-size: 30px;
@@ -29,6 +34,11 @@ button {
   overflow: hidden;
   list-style-type: none;
   font-weight: bold;
+}
+ul li:hover {
+  background-color: rgb(97, 12, 12);
+  border-radius: 100%;
+  cursor: pointer;
 }
 
 .show-nav {
