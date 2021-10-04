@@ -20,12 +20,12 @@ function Home() {
     },
     {
       type: "Hollywood Mix",
-      image: `${process.env.PUBLIC_URL}/assets/525661.png`,
+      image: `${process.env.PUBLIC_URL}/assets/Hollywood.jpg`,
       url: "/hollywood",
     },
     {
       type: "Bollywood Mix",
-      image: `${process.env.PUBLIC_URL}/assets/525661.png`,
+      image: `${process.env.PUBLIC_URL}/assets/Bollywood.jpg`,
       url: "/bollywood",
     },
   ];
