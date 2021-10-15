@@ -3,13 +3,13 @@ import React from "react";
 import Movies from "./pages/Movies";
 import Series from "./pages/Series";
 import Home from "./pages/Home";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
     <Navbar/>
       <Switch>
         <Route exact path="/" component={LandingPage}/>
@@ -19,7 +19,7 @@ function App() {
         <Route exact path="/bollywood" component={Movies}></Route>
         <Route exact path="/hollywood" component={Movies}></Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
