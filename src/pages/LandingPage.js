@@ -17,10 +17,9 @@ const LandingPage = () => {
                     <div className="input-div">
                         <div className="input-div-1">
                 <input type="text" placeholder="Email address" className="input" />
-
                         </div>
                         <div className="input-div-2">
-                <input type="submit" value="Sign In >" />
+                <input type="submit" className="submit" value="Sign In >" />
 
                         </div>
                     </div>
