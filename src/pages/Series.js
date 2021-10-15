@@ -8,12 +8,7 @@ function Series() {
   const [series,setSeries]=useState([]);
   const getMovies=()=>{
     fetch(`${process.env.PUBLIC_URL}/assets/sample.json`
-    ,{
-      headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    }
+    ,
     )
       .then(function(response){
         return response.json();
@@ -30,9 +25,8 @@ function Series() {
   const filtered = Object.values(entries1).filter(function(entries) { return entries.releaseYear >= 2010 && entries.programType.includes("series")});
   return (
     <React.Fragment>
-      <Navbar />
       <Header title="Popular Web Shows" />
-      <ContentUpdated content = {filtered}/>
+      <ContentUpdated content ={filtered}/>
       <Footer/>
     </React.Fragment>
   );

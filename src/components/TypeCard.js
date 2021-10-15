@@ -1,6 +1,5 @@
 import React from 'react';
 import "../css/TypeCard.css";
-
 function TypeCard(props) {
     return (
         <React.Fragment>

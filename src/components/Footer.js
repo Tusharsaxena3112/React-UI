@@ -40,17 +40,17 @@ function Footer() {
           <img
             alt=""
             className="image"
-            src={`${process.env.PUBLIC_URL}/assets/microsoft.png`}
+            src={`/assets/microsoft.png`}
           />
           <img
             alt=""
             className="image"
-            src={`${process.env.PUBLIC_URL}/assets/appStore.png`}
+            src={`/assets/appStore.png`}
           />
           <img
             alt=""
             className="image"
-            src={`${process.env.PUBLIC_URL}/assets/googleP.png`}
+            src={`/assets/googleP.png`}
           />
         </div>
       </div>
