@@ -52,7 +52,7 @@
   margin-top: 12px;
   font-size: 20px;
   background: transparent;
-  font-family: monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .overlay input {
   margin-top: 12px;
@@ -140,7 +140,8 @@
   text-align: center;
 }
 .enjoy-hr {
-  height: 50px;
+  height: 5px;
+  border: none;
   margin-top: 500px;
   background-color: rgb(61, 58, 58);
 }

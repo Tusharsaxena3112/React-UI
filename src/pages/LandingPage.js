@@ -42,7 +42,6 @@ const LandingPage = () => {
                     <img  src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="" />
                 </div>
             </div>
-            <hr className="enjoy-hr" />
         </div>
 
     )

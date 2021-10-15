@@ -34,7 +34,6 @@ function Movies() {
     <React.Fragment>
       <Header title="Popular Movies" />
       <ContentUpdated content = {filtered}/>
-      <Footer/>
     </React.Fragment>
   );
 }

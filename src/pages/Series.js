@@ -27,7 +27,6 @@ function Series() {
     <React.Fragment>
       <Header title="Popular Web Shows" />
       <ContentUpdated content ={filtered}/>
-      <Footer/>
     </React.Fragment>
   );
 }

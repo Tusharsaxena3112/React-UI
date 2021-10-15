@@ -51,7 +51,6 @@ function Home() {
           <p>Loading.....</p>
         )}
       </div>
-      <Footer />
     </React.Fragment>
   );
 }
