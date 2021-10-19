@@ -1,32 +1,48 @@
 import React, { useState } from "react";
-import { FaAlignRight } from "react-icons/fa";
 import "../css/Navbar.css";
+import {Link} from "react-router-dom"
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   var change = () => {
     setToggle(!toggle);
   };
   return (
-    <React.Fragment>
-        <div className="navBar">
-          <button onClick={change}>
-            <FaAlignRight />
-          </button>
-          <ul className={toggle ? "links show-nav" : "links"}>
-            <li className="heading">
-              Streaming Site
-            </li>
-            <li >
-              Login
-            </li>
-            <li>
-              Start Free Trial
-            </li>
-          </ul>
-          
+        <>
+        <div className="navbar">
+            <div className="nav-left">
+              <div className="logo">
+                <Link to="/">
+                <img src="/assets/youtube.png" alt="" />
+
+                </Link>
+              </div>
+            </div>
+            <div className='nav-right'>
+                  <ul>
+                    <li>
+                      <Link to="/series">
+                        Series
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/bollywood" href="">
+                        Hollywood
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/hollywood" href="">
+                        Bollywood
+                      </Link>
+                    </li>
+                    <li>
+                      <a href="" className="nav-btn">
+                          Login
+                      </a>
+                    </li>
+                  </ul>
+            </div>
         </div>
-      
-    </React.Fragment>
+        </>
   );
 }
 export default Navbar;

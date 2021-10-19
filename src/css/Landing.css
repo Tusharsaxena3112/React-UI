@@ -1,0 +1,150 @@
+* {
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+.landing-container {
+  width: 100%;
+  height: 80vh;
+}
+.landing-container img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.9)
+  );
+  color: #f1f1f1;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  height: 85vh;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  opacity: 1;
+  font-family: sans-serif;
+}
+.overlay > div {
+  margin-top: 150px;
+  background: transparent;
+}
+.overlay h1 {
+  background: transparent !important;
+  font-size: 50px;
+}
+.overlay h4 {
+  margin-top: 12px;
+  font-size: 35px;
+  background: transparent;
+}
+.overlay h6 {
+  margin-top: 12px;
+  font-size: 20px;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.overlay input {
+  margin-top: 12px;
+  padding: 15px;
+  background: #fff;
+}
+.input-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  width: 800px;
+  margin-top: 35px;
+}
+
+.input-div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  width: 70%;
+}
+.input-div-1 input {
+  outline: hidden;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  color: gray;
+  padding: 20px;
+  width: 100%;
+}
+.input-div-2 {
+  width: 30%;
+  background: transparent;
+  top: 0;
+}
+.input-div-2 input {
+  background: red;
+  width: 100%;
+  border: none;
+  padding: 20px;
+  font-size: 25px;
+  color: #fff;
+}
+.division {
+  height: 10px;
+  background-color: rgb(61, 58, 58);
+  margin-top: 70px;
+  color: #fff;
+  border: none;
+}
+.enjoy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.play-tv {
+  position: relative;
+  left: -300px;
+  padding: 25px;
+}
+
+.play-tv img {
+  position: absolute;
+  overflow: hidden;
+  opacity: 10;
+  background: transparent;
+}
+.tv-video video {
+  position: absolute;
+  top: 115px;
+  left: 105px;
+}
+.heading {
+  margin-top: 50px;
+  font-family: sans-serif;
+  align-items: center;
+  font-size: 60px;
+}
+.sub-heading {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.enjoy-hr {
+  height: 5px;
+  border: none;
+  margin-top: 500px;
+  background-color: rgb(61, 58, 58);
+}
+.submit {
+  cursor: pointer;
+}

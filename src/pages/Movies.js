@@ -32,10 +32,8 @@ function Movies() {
   // const entries = movies.entries;
   return (
     <React.Fragment>
-      <Navbar />
       <Header title="Popular Movies" />
       <ContentUpdated content = {filtered}/>
-      <Footer/>
     </React.Fragment>
   );
 }
